@@ -37,7 +37,7 @@ applicationSet:
 server:
   autoscaling:
     enabled: true
-    minReplicas: 3
+    minReplicas: 1
   resources: # Adjust based on your specific use case (required for HPA)
     requests:
       cpu: '250m'
